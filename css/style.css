@@ -91,7 +91,6 @@
 	background-color: red;
 }
 .Rodape p {
-	text-align: center;
 	color: white;
 	font-size: 18px;
 	font-weight: bold;
@@ -113,4 +112,13 @@ button:hover{
 }
 button a:hover{
 	color: yellow;
+}
+.direita {
+	width: 70%;
+	float: right;
+}
+.esquerda {
+	width: 80px;
+	height: 80px;
+	float: left;
 }
