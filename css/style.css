@@ -84,32 +84,6 @@
 	width: 50vw;
 	height: 45vh;
 }
-/*.Cardapioo {
-
-	background: url(../img/cardapioo.jpeg) no-repeat center;
-	background-size: cover;
-	width: 500px;
-	height: 100px;
-	text-align: center;
-}
-.Cardapioo{
-	width: 500px;
-	background: url(../img/cardapioo.jpeg) no-repeat center;
-}
-.corpo {
-	width: 100vw;
-	height: 100vh;	
-	background-color: blue;
-}
-.corpo img{
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	width: 20px;
-	height: 30px;
-}*/
-
 .Rodape {
 	width: 100vw;
 	height: 30vh;
@@ -121,4 +95,22 @@
 	color: white;
 	font-size: 18px;
 	font-weight: bold;
+}
+button{
+	padding: 20px;
+	border: 0;
+	background-color: white;
+	border-radius: 10px;
+	font-size: 18px;
+}
+button a{
+	text-shadow: 0.1em 0.1em black;
+	color: yellow;
+}
+button:hover{
+	color: white;
+	background-color: orange;
+}
+button a:hover{
+	color: yellow;
 }
