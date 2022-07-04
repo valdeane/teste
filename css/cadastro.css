@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	text-decoration: none;
+	list-style-type: none;
+	box-sizing: border-box;
+}
+.cabecalho a {
+	color: black;
+	background-color: red;
+}
+.cabecalho a:hover{
+	color: orange;
+	text-shadow: 1px 5px 8px black;
+
+}
+.img01 {
+	margin-left: 50px;
+	margin-top: 21px;
+	width: 18vw;
+	height: 19vh;	
+}
+.cabecalho {
+	width: 100vw;
+	height: 30vh;
+	background-color: red;
+}
+.cabecalho nav {
+	margin: 70px 50px 0 0;
+	float: right;
+}
+.cabecalho li {
+	font-size: 30px;
+	display: inline;
+	margin: 5px;
+	border-radius: 5px;
+	padding: 2px 5px;
+}
+h1 {
+	font-size: 35px;
+	margin-top: 20px;
+	text-align: center;
+	/*color: #fff;*/
+}
+.formulario {
+	background-color: yellow;
+	padding-top: 35px;
+	border: 0.5px solid black;
+	width: 35vw;
+	height: 25vw;
+	margin: auto;
+	border-radius: 5px;
+	margin-top: 20px;
+	text-align: center;
+}
+.formulario div {
+	background-color: yellow;
+	margin-top: 5px;
+	height: 10vh;
+}
+#d1, #d2, #d3 {
+	width: 80%;	
+	margin: auto;
+
+}
+#d2, #d3 {
+	margin-top: 5px;
+}
+.formulario label {
+	background-color: yellow;
+	font-size: 18px;
+}
+.formulario input{
+	background-color: #f2eded;
+	width: 60%;
+	margin: auto;
+	padding: 5px;
+	border-radius: 3px;
+	border: 0.5px solid black;
+	display: block;
+}
+button {
+	background-color: #f2eded;
+	border: 0.5px solid black;
+	margin-top: 15px;
+	border-radius: 5px;
+	padding: 5px 20px;
+}
+button a {
+	background-color: #f2eded;
+	text-decoration: none;	
+	color: black;
+}
+footer {
+	width: 100vw;
+	height: 30vh;
+	margin-top: 90px;
+	margin-left: 0;
+	padding-top: 50px;
+	background-color: red;
+}
+footer p {
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+}

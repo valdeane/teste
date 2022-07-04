@@ -1,0 +1,103 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	text-decoration: none;
+	list-style-type: none;
+	box-sizing: border-box;
+}
+h1{
+	margin-top: 50px;
+}
+.cabecalho a {
+	color: black;
+}
+.cabecalho a:hover{
+	color: orange;
+	text-shadow: 1px 5px 8px black;
+}
+.img01 {
+	margin-left: 50px;
+	margin-top: 21px;
+	width: 18vw;
+	height: 19vh;	
+}
+.cabecalho {
+	width: 100vw;
+	height: 30vh;
+	background-color: red;
+}
+.cabecalho nav {
+	margin: 70px 50px 0 0;
+	float: right;
+}
+.cabecalho li {
+	font-size: 30px;
+	display: inline;
+	margin: 5px;
+	border-radius: 5px;
+	padding: 2px 5px;
+}
+.pedido {
+	background-size: cover;
+	width: 100vw;
+	height: 40vh;
+	text-align: center;
+}
+.pedido h1 {
+	font-size: 40px;
+	color: yellow;
+	text-shadow: 0.1em 0.1em black;	
+}
+.pedido button{
+	margin-top: 160px;
+	padding: 10px 15px;
+	border-radius: 5px;
+	border: 0;
+	background-color: orange;
+}
+.combos {
+	text-align: center;
+	width: 100vw;
+	height: 800px;	
+}
+.combos ul {
+	display: inline-block;
+}
+#combo1, #combo2, #combo3 {
+	width: 50vw;
+	height: 45vh;
+}
+.cabecalho {
+	width: 100vw;
+	height: 30vh;
+	background-color: red;
+}
+.img01 {
+	margin-left: 50px;
+	margin-top: 21px;
+	width: 18vw;
+	height: 19vh;	
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+.pedido button:hover{
+	background-color: yellow;
+	cursor: pointer;
+}
+footer {
+	width: 100vw;
+	height: 30vh;
+	margin-top: 90px;
+	margin-left: 0;
+	padding-top: 50px;
+	background-color: red;
+}
+footer p {
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+}
